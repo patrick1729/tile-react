@@ -23,7 +23,7 @@ No installation required, just run the index.html file in your web browser.
 
 Please read [CONTRIBUTING.md](https://github.com/prateekmishra-95/Tiles/blob/master/CONTRIBUTING.md) for details on our code of conduct, and the process for submitting pull requests to us.
 
-## Authors
+## Author
 
 * **Prateek Mishra** - [prateekmishra-95](https://github.com/prateekmishra-95)
 
