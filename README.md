@@ -15,7 +15,7 @@ No installation required, just run the index.html file in your web browser.
 
 ## Built With
 
-* [ReactJS](https://reactjs.org/docs/hello-world.html) - The web framework used
+* [ReactJS](https://reactjs.org/) - The web framework used
 * [jQuery](https://jquery.com/) - For animations
 * [ECMASCRIPT 6](http://es6-features.org/#Constants) - Standard used to write Javascript code
 
