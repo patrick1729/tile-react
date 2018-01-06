@@ -29,4 +29,4 @@ Please read [CONTRIBUTING.md](https://github.com/prateekmishra-95/Tiles/blob/mas
 
 ## License
 
-This project is licensed under the Apache License - see the [LICENSE.md](LICENSE.md) file for details
+This project is licensed under the Apache License - see the [LICENSE.md](https://github.com/prateekmishra-95/Tiles/blob/master/LICENSE) file for details
