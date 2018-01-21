@@ -2,11 +2,12 @@
 
 import React from 'react';
 
+// Component to display the score
 const Score = (props) => {
   return (
     <div>
       <p> Score: &nbsp;&nbsp;
-		{props.scoreValue}
+		    {props.scoreValue}
       </p>
     </div>
   );

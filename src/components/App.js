@@ -7,21 +7,25 @@ import Timer from './Timer';
 import Guide from './Guide';
 import styles from '../css/index.css';
 
+// Main parent component of all other components
 class App extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      showCanvas : true, 
-      score : 0,    // Initial score
+      showCanvas: true, // To display tiles
+      score: 0,    // Initial score
     };
   }
 
+  // Listener that shuts the canvas off
   timeoutListener = () => {
     this.setState({
       showCanvas: false
     });
   }
 
+  // Receives the 'scoreValue' from 'Canvas' component
+  // when user clicks on any tile
   scoreTrackListener = (scoreValue) => {
     this.setState({
       score: scoreValue
@@ -31,7 +35,7 @@ class App extends React.Component {
   render() {
     return (
       <div>
-        <div id="form">
+        <div id="canvas">
           <Canvas showCanvas={this.state.showCanvas} scoreTrackListener={
             (score) => { this.scoreTrackListener(score); }} />
         </div>
@@ -43,9 +47,8 @@ class App extends React.Component {
           <div id="score">
             <Score scoreValue={this.state.score} />
           </div>
-			<br /><br /><br />
-			<br /><br /><br />
-		  <Guide />
+          <br /><br /><br />
+          <Guide />
         </div>
       </div>
     );
