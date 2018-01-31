@@ -85,8 +85,8 @@ You can, however, create more top-level directories.
 
 ## Built With
 
-* [ReactJS](https://reactjs.org/) - The web framework used
-* [jQuery](https://jquery.com/) - For animations
+* [ReactJS](https://reactjs.org/) - JavaScript library used for UI
+* [jQuery](https://jquery.com/) - JavaScript library used for animations
 * [ECMASCRIPT 6](http://es6-features.org/#Constants) - Standard used to write Javascript code
 * [Babel](https://babeljs.io/) - Transpiler used
 
