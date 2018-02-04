@@ -50,6 +50,7 @@ After creation, your project should look like this:
 ```
 tiles/
   README.md
+  node_modules
   LICENSE
   package.json
   CONTRIBUTING.md
